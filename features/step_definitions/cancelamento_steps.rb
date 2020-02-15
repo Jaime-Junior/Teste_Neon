@@ -17,4 +17,5 @@ end
 
 Então("vejo a resposta na tela.") do
   expect(page).to have_text "Para cancelar sua conta basta logar no app, clicar em:"
+  puts @cancelamento.report.text
 end

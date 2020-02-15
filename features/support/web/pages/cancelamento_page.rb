@@ -15,7 +15,9 @@ class CancelaCartao
 
   def pergunta #Método clica na pergunta desejada e exibe o texto no terminal
     click_link "Quero cancelar minha conta. Como faço?"
+  end
+
+  def report #Método exibe resposta da pergunta no terminal
     descricao = find(".question-article__content")
-    puts descricao.text
   end
 end
