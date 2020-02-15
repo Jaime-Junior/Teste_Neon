@@ -1,6 +1,6 @@
 #language: pt
 
-Funcionalidade: Pergunta
+Funcionalidade: Conta_Pejota
     Usuário deseja abrir conta Pessoa Jurídica
     Deve verificar quais os documentos de identidade aceitos
 

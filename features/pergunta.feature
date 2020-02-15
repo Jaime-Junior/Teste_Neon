@@ -1,6 +1,6 @@
 #language: pt
 
-Funcionalidade: Pergunta
+Funcionalidade: Pergunta_Cancelamento
     Usuário decide cancelar sua conta
     Não sabe onde fazê-lo
     Busca tal informação na sessão Perguntas

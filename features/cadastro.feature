@@ -1,6 +1,6 @@
 #language: pt
 
-Funcionalidade: Cadastro Inválido
+Funcionalidade: Cadastro_Inválido
     Para que o usuário possa se cadastrar no sistema
     É necessário que entre com todos os dados pedidos
     Porém um dado sempre falta
