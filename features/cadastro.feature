@@ -7,8 +7,9 @@ Funcionalidade: Cadastro_Inválido
     Assim nenhum cadastro é feito
 
 Esquema do Cenario: Cadastro sem sucesso
+    Dado que acesso o site do banco Neon
     Quando eu faço cadastro com <nome> e <cpf> e <email> e <celular> e <nascimento>
-    E devo ver a mensagem de alerta <mensagem>
+    Então devo ver a mensagem de alerta <mensagem>
 
     Exemplos:
       | nome       | cpf            | email               | celular       | nascimento | mensagem                                |

@@ -5,7 +5,7 @@ Funcionalidade: Pergunta_Cancelamento
     Não sabe onde fazê-lo
     Busca tal informação na sessão Perguntas
 
-Cenario: Cancelamento
+Cenario: Questionando cancelamento de conta pelo site
     Dado que o usuário quer cancelar sua conta no site
     Quando o usuário vai até a seção Perguntas
     E busca pela seção Cancelamento
