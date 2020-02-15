@@ -1,8 +1,10 @@
 #language: pt
 
-Funcionalidade: Cadastro
+Funcionalidade: Cadastro Inválido
     Para que o usuário possa se cadastrar no sistema
     É necessário que entre com todos os dados pedidos
+    Porém um dado sempre falta
+    Assim nenhum cadastro é feito
 
 @login
 Esquema do Cenario: Cadastro sem sucesso
