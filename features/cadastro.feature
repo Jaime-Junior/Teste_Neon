@@ -6,7 +6,6 @@ Funcionalidade: Cadastro Inválido
     Porém um dado sempre falta
     Assim nenhum cadastro é feito
 
-@login
 Esquema do Cenario: Cadastro sem sucesso
     Quando eu faço cadastro com <nome> e <cpf> e <email> e <celular> e <nascimento>
     E devo ver a mensagem de alerta <mensagem>
