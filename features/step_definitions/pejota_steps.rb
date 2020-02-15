@@ -10,4 +10,5 @@ end
 Então("verifica quais os documentos de identidades aceitos") do
   @pejota.listadoc
   expect(@pejota.nomedocs.text).to include("RG", "CNH", "RNE")
+  puts @pejota.nomedocs.text
 end
