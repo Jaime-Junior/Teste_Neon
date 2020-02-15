@@ -8,5 +8,5 @@ Quando("eu faço cadastro com {string} e {string} e {string} e {string} e {strin
 end
 
 Quando("devo ver a mensagem de alerta {string}") do |mensagem|
-  expect(page).to have_text mensagem
+  expect(find("mat-error").click).to have_text mensagem
 end
