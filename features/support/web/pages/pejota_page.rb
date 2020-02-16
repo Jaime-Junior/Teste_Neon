@@ -18,4 +18,12 @@ class AbrePejota
   def nomedocs #Método exibe os documentos aceitos
     find("#signup-documents-panel-content-2")
   end
+
+  def acessapj #Método acessa página de login para Pejotas
+    click_link "Acessar conta"
+  end
+
+  def emailpj
+    find("input[id=login-form-email]") #Método clica no campo email na pagina de login Pejota
+  end
 end
